@@ -1,7 +1,3 @@
-
-
-
-
 /*tratando de hacer funcionar con boton function arrow
 const food = (comida) =>{
 food = document.getElementById('comida').value;
@@ -31,3 +27,16 @@ const btn = document.getElementById('btnOk').value;
 		};
 	})
 	*/
+/*esta funcion arrow funciona pero no puedo llamarla*/
+	const food = (comida) => {
+	if (comida === 'ceviche'){
+		alert("ooouch, no queda");
+	}else if(comida === 'tacos al pastor'){
+		alert('lo sentimos, se los comieron todos');
+	}else if (comida === 'empanada de pino'){
+		alert('chupalla, el guaton loyola se las comio todas');
+    }else{
+		alert('justo queda la ultima, buen provecho')
+	}
+}
+    
